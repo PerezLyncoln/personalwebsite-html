@@ -1,0 +1,187 @@
+body {
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+/*Top Bar*/
+.navigator-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #800000;
+    height: 100px;
+}
+a {
+    font-size: 30px;
+    color: white;
+    background-color: #800000;
+    margin: 30px;
+    padding: 0rem 1rem;
+    border: 3px solid #800000;
+    transition: transform 0.3s;
+    text-decoration: none;
+}
+a:hover {
+    color: maroon;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 60px;
+    transform: translateY(-5px);
+}
+.logotopright {
+    padding-left: 50px;
+    width: 7%;
+    max-width: auto;
+    height: auto;
+}
+
+/*First Section*/
+.body-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    background-color: bisque;
+    height: 100vh;
+}
+.text-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;  
+    padding-left: 10rem;
+}
+.header1 {
+    font-size: 10rem;
+    color: #982B1C;
+    min-height: 0px;
+    animation-name: wave;
+    animation-duration: s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.image-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.imageholder {
+    width: 40rem;
+    height: auto;
+    mix-blend-mode: multiply;
+    filter:saturate(1.2)
+}
+
+/*Second Section*/
+
+
+.body2-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+    background-color: bisque;
+    height: 105vh;
+    border-top: dotted;
+    padding-top: 3rem;
+    color: #982B1C;
+}
+/*Upper portion texts*/
+.text2-container {
+    flex-direction: column ;
+    align-content: center;
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+}
+.text2-container h1.name {
+    font-size: 6rem;
+    margin: 0px;
+    position: relative;
+    left: 250px;
+    bottom: 100px;
+    inline-size: 600px;
+}
+.text2-container p.namedescription {
+    font-size: 2rem;
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+    inline-size: 600px;
+}
+
+/*Images*/
+.image2-container {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    position: relative;
+    left: 500px;
+}
+.image3-container {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    top: 460px;
+    left: 180px;
+}
+.picture1 {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.picture2 {
+    width: 800px;
+    height: 600px;  
+}
+
+/*Lower portion texts*/
+.text3-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #982B1C;
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+}
+.text3-container h1.school {
+    font-size: 5rem;
+    margin: 0px;
+    min-height: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+    inline-size: 900px;
+}
+p.schooldescription {
+    font-size: 2rem;
+    min-height: 0px;
+    position: relative;
+    bottom: 45px;
+    left: 30px;
+    inline-size: 800px;
+}
+
+/*Info button*/
+.body3-container {
+    background-color: #800000;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+div.contact-info button {
+    font-size: 20px;
+    color: white;
+    background-color: #800000;
+    padding: 0rem 1rem;
+    border: 1px solid #800000;
+    transition: transform 0.3s;
+}
+.contact-info button:hover {
+    color: maroon;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 60px;
+}
