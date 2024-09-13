@@ -174,12 +174,12 @@ a:hover {
     inline-size: 37vw;
 }
 p.schooldescription {
-    font-size: 2vw;
+    font-size: 1.5vw;
     min-height: 0px;
     position: relative;
     bottom: 0.8vw;
-    left: -3vw;
-    inline-size: 35vw;
+    left: -4.5vw;
+    inline-size: 30vw;
 }
 
 /*Info button*/

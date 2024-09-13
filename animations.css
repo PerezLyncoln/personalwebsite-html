@@ -25,7 +25,7 @@
 }
 @keyframes SlideinRight {
     from {
-        transform: translateX(250px);
+        transform: translateX(70px);
     }
     to {
         transform: translate(0);
@@ -33,7 +33,7 @@
 }
 @keyframes SlideinRight2 {
     from {
-        transform: translateX(300px);
+        transform: translateX(70px);
     }
     to {
         transform: translate(0);
