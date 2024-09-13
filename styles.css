@@ -6,14 +6,15 @@ body {
 
 /*Top Bar*/
 .navigator-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     align-items: center;
     background-color: #800000;
     height: 100px;
 }
 a {
-    font-size: 0.7vw;
+    font-size: 2vw;
     color: white;
     background-color: #800000;
     margin: 30px;
@@ -21,6 +22,9 @@ a {
     border: 3px solid #800000;
     transition: transform 0.3s;
     text-decoration: none;
+}
+a.infolink {
+    font-size: 1vw;
 }
 a:hover {
     color: maroon;
@@ -106,7 +110,7 @@ a:hover {
     position: relative;
     left: 16vw;
     bottom: 8vw;
-    inline-size: ;
+    inline-size: 20vw;
 }
 
 /*Images*/
@@ -122,7 +126,7 @@ a:hover {
     overflow: hidden;
     float: left;
     position: relative;
-    top: 25vw;
+    top: 23.5vw;
     left: 12vw;
 }
 .picture1 {
@@ -168,21 +172,7 @@ p.schooldescription {
     background-color: #800000;
 }
 .contact-info {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-}
-div.contact-info button {
-    font-size: 20px;
-    color: white;
-    background-color: #800000;
-    padding: 0rem 1rem;
-    border: 1px solid #800000;
-    transition: transform 0.3s;
-}
-.contact-info button:hover {
-    color: maroon;
-    background-color: white;
-    border: 5px solid white;
-    border-radius: 60px;
+    display: block;
+    text-align: center;
+    padding: 1vw;
 }
