@@ -14,7 +14,9 @@ body {
     height: 100px;
 }
 a {
-    font-size: 2vw;
+    position: relative;
+    left: 10vw;
+    font-size: 1.5vw;
     color: white;
     background-color: #800000;
     margin: 30px;
@@ -34,6 +36,8 @@ a:hover {
     transform: translateY(-5px);
 }
 .logotopright {
+    position: relative;
+    left: 2vw;
     padding-left: 2vw;
     width: 7%;
     max-width: auto;
