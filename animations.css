@@ -1,3 +1,12 @@
+      /*Animations*/
+
+/*Some animations taken from the internet*/
+/*sources*/
+
+/*https://www.sliderrevolution.com/resources/css-text-animation/*/
+/*https://wpdean.com/css-text-animation/*/
+
+
 @keyframes SlideinLeft {
     from {
         transform: translateX(-500px);
@@ -51,11 +60,19 @@
     99%   {color: var(--color-3)}
     100%  {color: var(--color-1)}
   }
+@keyframes glow {
+    from {
+      text-shadow: 0 0 20px #44107a;
+    }
+    to {
+      text-shadow: 0 0 50px #ff1361, 0 0 10px #fff800;
+    }
+}
 .header1.in-view {
     --color-1: #DF8453;
     --color-2: #3D8DAE;
     --color-3: #ff6a68;
-    animation: color-animation 4s linear infinite;
+    animation: color-animation 3s linear infinite;
 }
 .imageholder.in-view {
     animation-name: appear;
