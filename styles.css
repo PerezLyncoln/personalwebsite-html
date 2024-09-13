@@ -67,6 +67,7 @@ a:hover {
     padding-left: 10rem;
 }
 .header1 {
+    text-align: center;
     font-size: 8vw;
     color: #982B1C;
     min-height: 0px;
@@ -113,16 +114,17 @@ a:hover {
     font-size: 6vw;
     margin: 0px;
     position: relative;
-    left: 12vw;
-    bottom: 7vw;
+    left: 5vw;
+    bottom: 5.5vw;
     inline-size: 35vw;
 }
 .text2-container p.namedescription {
     font-size: 2vw;
     position: relative;
-    left: 16vw;
+    left: 9vw;
     bottom: 8vw;
-    inline-size: 20vw;
+    inline-size: 40vw;
+    text-align: justify;
 }
 
 /*Images*/
