@@ -13,7 +13,7 @@ body {
     background-color: #800000;
     height: 100px;
 }
-a {
+nav a {
     position: relative;
     left: 10vw;
     font-size: 1.5vw;
@@ -27,6 +27,14 @@ a {
 }
 a.infolink {
     font-size: 1vw;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #800000;
+    margin: 30px;
+    padding: 0vw 2vw;
+    border: 3px solid #800000;
+    transition: transform 0.3s;
+    text-decoration: none;
 }
 a:hover {
     color: maroon;
