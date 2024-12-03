@@ -6,7 +6,7 @@ body {
 
 /*Top Bar*/
 .navigator-container {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     align-items: center;
@@ -14,13 +14,10 @@ body {
     height: 100px;
 }
 nav a {
-    position: relative;
-    left: 10vw;
-    font-size: 1.5vw;
+    font-size: 40px;
     color: white;
     background-color: #800000;
     margin: 30px;
-    padding: 0vw 1vw;
     border: 3px solid #800000;
     transition: transform 0.3s;
     text-decoration: none;
@@ -58,7 +55,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     background-color: bisque;
-    height: 100vh;
+    height: 100%;
 }
 .text-container {
     display: flex;
@@ -190,4 +187,146 @@ p.schooldescription {
     display: block;
     text-align: center;
     padding: 1vw;
+}
+@media (max-width: 1400px) {
+    * {
+        position: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+    div.navigator-container {
+        max-height: 30%;
+        align-items: none;
+        justify-content: none;
+        display: flex;
+        flex-direction: row;
+    }
+    div.navigator-container div.nav-container {
+        width: auto;
+        position: none;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    div.header {
+        width: 30%;
+    }
+    /* --------------------------- */
+    div.body-container {
+        height: 90vh;
+    }
+    /* --------------------------- */
+    div.body2-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        gap: 15px;
+    }
+    div.text2-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: none;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+        margin: 0;
+    }
+    div.text3-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: none;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+        margin: 0;
+    }
+    div.image2-container {
+        position: none;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.image3-container {
+        position: none;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+        margin: 0;
+    }
+    img.picture1 {
+        width: 30%;
+        height: 30%;
+    }
+    img.picture2 {
+        width: 100%;
+        height: 80%;
+    }
+    .text2-container p.namedescription {
+        text-align: center;
+        width: 100%;
+        position: none;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+        margin: 0;
+        inline-size: none;
+    }
+    .text2-container h1.name {
+        text-align: center;
+        bottom: 0;
+        left: 0;
+    }
+    div.text2-container h1.name {
+        width: 80%;
+    }
+    div.text2-container p.namedescription {
+        width: 50%;
+    }
+    div.text3-container h1.school {
+        text-align: center;
+        width: 60%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; 
+        padding: 0;
+        margin: 0;
+    }
+    div.text3-container p.schooldescription {
+        font-size: 30px;
+        width: 50%;
+        text-align: justify;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; 
+    }
+
 }
